@@ -144,3 +144,8 @@ La couche API est un proxi agréger toutes nos offres de service
 ![comasync1](images/comasync1.png)
 ![comasync2](images/comasync2.png)
 ![comasync3](images/comasync3.png)
+## Enregistrer Et Tracer Dans Une Architecture De Microservices
+![tracer](images/tracer.png)
+![journaliser](images/journaliser.png)
+Le traçage consiste à créer un jeton unique appeler trace à utiliser cette trace dans tous les évènements de journalisation interne cette pile d'appelle en intégrant cette valeur à tous les résultats de journalisation et  de minitage pour tous les services concernés pour faciliter la journalisation.
+![tracage](images/tracage.png)

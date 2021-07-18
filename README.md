@@ -213,3 +213,12 @@ Le développement polyglotte s'accompagne avec une complication de la gestion de
 
 #### Avantages D'un service Edge
 ![avanatege](images/avantageedge.png)
+
+## Adopter Une Culture DevOps
+![culture](images/culture.png)
+![serveillems](images/serveillems.png)
+### Automatisation Des Tâches
+![automatisationtache](images/automatisationtache.png)
+
+### Version de codes Et Gestion Automatique
+![gestionauto](images/gestioncode.png)

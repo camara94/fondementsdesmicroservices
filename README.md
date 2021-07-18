@@ -161,3 +161,18 @@ Le traçage consiste à créer un jeton unique appeler trace à utiliser cette t
 Une fois l'artefact valider, il sera deployer automatiquement
 ![deployer](images/cda.png)
 ![la](images/livraisoncontinueta.png)
+## Connaître Quelques Architectures Hybrides Viables
+### Architecture Hybride De Service
+![archhy](images/archhybride.png)
+#### Architecture N-tiers Hybrides
+Dans le modèle hiérarchique n-tiers, nous pouvons définir différentes classes de services:
+* le service de données est une classe commune qui expose la logique des données spécifique au domaine au monde exterieur
+* le service des processus métier constitue une autre classe commune qui définie precisement des processus métiers de haut niveau
+* nous pouvons également definir des services de passerelles qui créent des abstractions vers des dépendances externes
+* et enfin nous pouvons definir des services edges qui exposent nos données et nos processus métiers aux monde exterieurs 
+* une fois que nous avons une taxonomie claire, nous pouvons definir des règles sur ce que les services peuvent consommer, etudier les risques liés aux appels circulaires et interdire qu'un service appel aun autre service de donnée sans être impliqué dans un processus métier. La consommation de service de passerelle intervient aussi via les même processus métier et non entre eux.
+![ntierhybride](images/ntierhybride.png)
+
+### Architecture De Services
+![architecturedeservice](images/architecturedeservice.png)
+![architecturedeservice](images/architecturedeservice2.png)

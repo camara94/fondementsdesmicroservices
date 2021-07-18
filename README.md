@@ -100,3 +100,13 @@ Chaque service doit maintenir un certain niveau de passivité dans ces API pour 
 * évolutivité 
 * distribution
 * scalabilité
+
+## Anticiper Les Danger De La Latence  Et L'Engorgement
+### La Latence
+La latence peut devenir intolérable dans une architectiure microservice
+![latence](images/latence.png)
+
+### Appels Circulaire
+Les appels circulaire peuvent devenir problématiques.
+![appelcirculaire](images/appelcirculaire.png)
+Avant de passer à une architecture nous devons penser aux problèmes de latence.

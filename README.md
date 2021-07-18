@@ -176,3 +176,18 @@ Dans le modèle hiérarchique n-tiers, nous pouvons définir différentes classe
 ### Architecture De Services
 ![architecturedeservice](images/architecturedeservice.png)
 ![architecturedeservice](images/architecturedeservice2.png)
+
+## Parcourir Les Considérations Relatives A La Conception
+Pour concevoir une architecture microservice voici quelques points essentiels à tenir compte:
+![point1](images/point1.png)
+![point2](images/point2.png)
+* Concernant le code nous devons envisager de tirer parti de la conception piloter le domaine
+* nous devons effectuer une véritable analyse de l'ensemble du système et utiliser ces connaissances pour développer nos services
+* nous devons reflichir à la création de nos services et à la fonction qu'ils vont exécuter
+* nous devons également penser si nous allons exploiter des services de données dédiers ou intégrer les données dans les processus métiers
+* devrions-nous intégrer les services ensembles pour obtenir les transactions avec leur propriétés ACID là où cela est requis ou devrions-nous élaborer des stratégie basée sur la cohérence eventuelle des données
+
+### Conception Des Mécanismes Pour Contrôler La Latence
+![mecanisme](images/conceptiondemecanisme.png)
+Beaucoup de développeur n'aime entendre la standardisation, mais les équipes qui réussent le mieux avec les architectures de microservices ont opté pour la standardisation.
+La standardisation permet de deplacer les ressources plus facilement en fonction de l'évolution des besoins métiers, de plus au depart concevons nos systèmes de manière asynchrône. Essyons de créer chaque service avec des opérations asynchrônes jusqu'à ce qu'il soit aprouvé que nous en avons besoins des opérations synchrônes.

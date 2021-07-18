@@ -53,3 +53,17 @@ Les microservices constituent la décomposition d'un problème logiciel en plus 
 Les microservices utilisent l'interopérabilité héterogene basée sur l'adaptation au protocole pour gerer les comminucations ainsi:
 ![microservices](images/microservice3.png)
 ![microservices](images/microservice4.png)
+
+## Distinguer Microservice Et Cloud Natif
+### Architecture Cloud Natif
+Les architectures Cloud Natifs réposent sur la méthodologie de création d'application à 12 facteurs.
+Les architectures cloud natifs incluent des modèles pour créer des systèmes s'exécutant dans une infrastructure cloud.
+#### Infrastructure Cloud 
+les infrastructure cloud peuvent être:
+![infrastructure](images/infrastructurecloud.png)
+Le cloud computing est un modèle de système distribuer à l'echelle mondiale qui maximise la disponibilité, évolutivité et distribution. Nous pouvons créer des systèmes cloud s'exécutant dans un seul data center et prevoir de les étendre.
+Les microservices s'intègrent très bien trop souvent dans une architecture cloud natif car ils constituent une transition très fluide vers une application à 12 facteurs. ils sont deux facteurs très différents.
+Nous pouvons créer des applications cloud monolithique et des application microservices incapables de migrer dans le cloud. Trop souvent les gens confondent les deux modèles.
+Mais malgré leurs différences ces deux modèles vont souvent de pairs
+### Applications De Microservices Cloud Natives
+![mservice](images/mservice.png)

@@ -139,3 +139,8 @@ Mais il y a des moment où nous avons réellement besoins des transactions ACID 
 La couche API est un proxi agréger toutes nos offres de service
 ![coucheapi2](images/coucheapi2.png)
 ![coucheapi3](images/coucheapi3.png)
+
+## Aborder Les Communication Asynchrones
+![comasync1](images/comasync1.png)
+![comasync2](images/comasync2.png)
+![comasync3](images/comasync3.png)

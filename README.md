@@ -121,3 +121,16 @@ Avant de passer à une architecture nous devons penser aux problèmes de latence
 ![msservice](images/basemicroservices.png)
 Si vous travaillez sur une couche d'API
 ![coucheapi](images/coucheapi.png)
+
+## Découvrir Les Pertes Des Transactions Atomiques
+![proprietet](images/proprieteacidet.png)
+![atomique](images/atomique.png)
+![coherente](images/coherente.png)
+![isolee](images/isolee.png)
+![durable](images/durable.png)
+
+Dans une architecture monolithique ces opérations bien respectés par contre dans une architecture microservice, ces opérations sont presque inexistantes à la place: 
+![cherchons](images/cherchons.png)
+
+Mais il y a des moment où nous avons réellement besoins des transactions ACID par exemple pour les applications bançaire où les débits et les crédits doivent se produire dans une seule transaction bancaire.
+![transactionbancaire](images/transactionbancaire.png)

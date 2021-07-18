@@ -67,3 +67,14 @@ Nous pouvons créer des applications cloud monolithique et des application micro
 Mais malgré leurs différences ces deux modèles vont souvent de pairs
 ### Applications De Microservices Cloud Natives
 ![mservice](images/mservice.png)
+
+## Différencier Les Services
+Avec les microservices toutes les comminucations entre les services fonctionnent avec le REST à l'aide du protocole HTTP, il y a d'autre méthode base sur  la notion d'évènement, mais les appels intra-service répose tous sur  le REST.
+![rest](images/restmicroservice.png)
+### Service
+Avec les microservices, un service fonctionne sur un domaine bien défini, les opérations sont définis sur  le domaine et non sur les objets métiers. 
+![service](images/service.png)
+Dans une architecture de microservice il faut fornir des services de très bon niveaux, souvent ses services exposent des opérations GRUD spécifique à un domaine sur l'objet de domaine, mais ce domaine peut couvrir plusieurs domaines.
+![domaine](images/domaine.png)
+### Blocage De Conception De Service
+![blocage](images/blocage.png)

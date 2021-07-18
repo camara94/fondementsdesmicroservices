@@ -134,3 +134,8 @@ Dans une architecture monolithique ces opérations bien respectés par contre da
 
 Mais il y a des moment où nous avons réellement besoins des transactions ACID par exemple pour les applications bançaire où les débits et les crédits doivent se produire dans une seule transaction bancaire.
 ![transactionbancaire](images/transactionbancaire.png)
+
+## Etudier La Couche API
+La couche API est un proxi agréger toutes nos offres de service
+![coucheapi2](images/coucheapi2.png)
+![coucheapi3](images/coucheapi3.png)

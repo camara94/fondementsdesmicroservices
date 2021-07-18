@@ -149,3 +149,15 @@ La couche API est un proxi agréger toutes nos offres de service
 ![journaliser](images/journaliser.png)
 Le traçage consiste à créer un jeton unique appeler trace à utiliser cette trace dans tous les évènements de journalisation interne cette pile d'appelle en intégrant cette valeur à tous les résultats de journalisation et  de minitage pour tous les services concernés pour faciliter la journalisation.
 ![tracage](images/tracage.png)
+## Comprendre L'Importance De La Livraison Livraison Continue 
+### Livraison Continue
+![livraisoncontinue](images/livraisoncontinue.png)
+### CI/CD
+![cicd](images/cicd.png)
+#### CD Hors Production
+![cd](images/cd.png)
+
+#### CD Production
+Une fois l'artefact valider, il sera deployer automatiquement
+![deployer](images/cda.png)
+![la](images/livraisoncontinueta.png)

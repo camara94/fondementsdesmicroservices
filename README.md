@@ -92,3 +92,11 @@ Dans une architecture de microservice il faut fornir des services de très bon n
 Chaque service doit maintenir un certain niveau de passivité dans ces API pour éviter les defaillances dans ces systèmes, un service pouvant appeler n'import lequel de ces services, il n'y a pas de delimitation claire qui vous appelle, nous devons avoir une solide stratégie de gestion de version de API passive pour que les système d'appelles ne tombent pas en panne lors de la publication d'une nouvelle version d'API.
 ![api](images/gestionversion.png)
 
+## Examiner La Distribution Et L'Evolutivité
+![distr](images/distr.png)
+### Besoins Liés A Internet Du Point De Vue De L'Entreprise
+![besoin](images/besoin1.png)
+### Avantage
+* évolutivité 
+* distribution
+* scalabilité

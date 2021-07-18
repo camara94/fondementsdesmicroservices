@@ -110,3 +110,7 @@ La latence peut devenir intolérable dans une architectiure microservice
 Les appels circulaire peuvent devenir problématiques.
 ![appelcirculaire](images/appelcirculaire.png)
 Avant de passer à une architecture nous devons penser aux problèmes de latence.
+## Définir Le Context Délimité
+### Modèle De Conception
+![modeleconception](images/modeleconception.png)
+![delimiter](images/delimiter.png)

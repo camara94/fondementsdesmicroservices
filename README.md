@@ -191,3 +191,13 @@ Pour concevoir une architecture microservice voici quelques points essentiels à
 ![mecanisme](images/conceptiondemecanisme.png)
 Beaucoup de développeur n'aime entendre la standardisation, mais les équipes qui réussent le mieux avec les architectures de microservices ont opté pour la standardisation.
 La standardisation permet de deplacer les ressources plus facilement en fonction de l'évolution des besoins métiers, de plus au depart concevons nos systèmes de manière asynchrône. Essyons de créer chaque service avec des opérations asynchrônes jusqu'à ce qu'il soit aprouvé que nous en avons besoins des opérations synchrônes.
+
+## Discerner Les Compromis
+### Payer La &lt;&lt;Distribution Tax &gt;&gt; Offre Plusieurs Avantages
+![distributionTax](images/distributiontax.png)
+Prenons le cas d'amaazone qui opère à l'echelle mondiale et qui clairement ateint une pic d'activité à la veille de la fête de paque il serait quasiment impossible pour elle de gerer son système dans le cadre d'un deployement monolithique. Elle gere la **distribution tax** modèle hautement disponible qui constitue un avantage evident pour operer à l'echelle mondiale.
+### Problèmes Liés A La Complexité
+![complexite](images/complexite.png)
+### Pratiques De Développement Polyglotte
+![polyglotte](images/polyglotte.png)
+Le développement polyglotte s'accompagne avec une complication de la gestion des service en production.

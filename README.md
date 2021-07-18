@@ -201,3 +201,15 @@ Prenons le cas d'amaazone qui opère à l'echelle mondiale et qui clairement ate
 ### Pratiques De Développement Polyglotte
 ![polyglotte](images/polyglotte.png)
 Le développement polyglotte s'accompagne avec une complication de la gestion des service en production.
+
+## Voir Les Avantages Des Services De Pointe
+![servicepointe](images/servicepoint.png)
+### Services Edges Sortants
+![servicesedgesortant](images/serviceedgesortant.png)
+![edge](images/edge2.png)
+### Services Edges Entrantes / De Traduction
+![serviceedgeentrante](images/serviceedgeentrant.png)
+![edge](images/edge.png)
+
+#### Avantages D'un service Edge
+![avanatege](images/avantageedge.png)

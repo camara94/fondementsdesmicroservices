@@ -222,3 +222,9 @@ Le développement polyglotte s'accompagne avec une complication de la gestion de
 
 ### Version de codes Et Gestion Automatique
 ![gestionauto](images/gestioncode.png)
+
+## Notions Aborder Dans cette Formation
+![notion1](images/notion1.png)
+![notion2](images/notion2.png)
+![notion3](images/notion3.png)
+![notion4](images/notion4.png)

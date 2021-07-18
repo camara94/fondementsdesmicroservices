@@ -114,3 +114,10 @@ Avant de passer à une architecture nous devons penser aux problèmes de latence
 ### Modèle De Conception
 ![modeleconception](images/modeleconception.png)
 ![delimiter](images/delimiter.png)
+
+## Observer Les Limites Des Domaines De Données
+### Limites Trasactionnelles
+![limitetransactionnelle](images/limitetransactionnelle.png)
+![msservice](images/basemicroservices.png)
+Si vous travaillez sur une couche d'API
+![coucheapi](images/coucheapi.png)
